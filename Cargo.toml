@@ -1,0 +1,8 @@
+[package]
+name = "student_report_card"
+version = "0.1.0"
+edition = "2021"  # ✅ Use 2021 — edition 2024 is not stable yet.
+
+[dependencies]
+genpdf = "0.2.0"
+textplots = "0.8" # optional, only if you plan to use charts
